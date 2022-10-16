@@ -82,6 +82,11 @@
     padding: 5px;
     border-radius: 5px;
 }
+.top-header-gradient{
+    background-image: linear-gradient(rgba(27,194,60,0.6 ),rgb(34,32,32));
+
+}
+
 .top-header{
     display: flex;
     justify-content: space-between;
@@ -125,4 +130,28 @@
 }
 .image-data{
     padding-top: 80px;
+}
+
+.play-buttons{
+    margin: 10px 10px;
+    
+    
+}
+.play-buttons i {
+    margin: 5px;
+    color: white;
+}
+
+.fa-circle-play{
+    color: #1ed761;
+    font-size:40px ;
+    
+}
+.fa-heart{
+    color:#1ed761;
+    
+}
+
+.playing-songs-container{
+    
 }
