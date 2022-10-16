@@ -20,12 +20,13 @@
 
 .playlist{
     width: 25%;
-    background-color: rgb(104, 100, 100);
+    background-color: rgb(36, 32, 32);
+    overflow: hidden;
 }
 
 .playing{
     width: 75%;
-    background-color: orange;
+    background-color: rgb(22, 21, 21);
 }
 
 .music-player{
@@ -59,5 +60,69 @@
 }
 
 .playlist-main-content-header{
-     
+   color: white;
+   margin: 15px;  
+   font-weight: 600;
+}
+.track-list{
+    margin: 10px 5px;
+    height: 60vh;
+    border-radius: 5px;
+    background-color: rgb(39, 39, 39);
+    overflow: scroll;
+    
+}
+.track-played{
+    color: white;
+    margin: 10px 5px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid rgb(53, 52, 52);
+    padding: 5px;
+    border-radius: 5px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.fa-circle-left{
+    margin: 0px 5px;
+}
+.fa-circle-right{
+    margin: 0px 5px;
+}
+.fa-user{
+    margin: 0px 5px;
+}
+.fa-circle-down{
+    margin: 0px 5px;
+}
+
+.playlist-image-container{
+    padding: 20px;
+    display: flex;
+    
+    
+    
+    
+}
+
+.image-playlist{
+    height: 150px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.data{
+    color: white;
+    margin-top: 1 px;
+    margin-left: 10px;
+    margin: 5px;
+    
+}
+.image-data{
+    padding-top: 80px;
 }
