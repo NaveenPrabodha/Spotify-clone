@@ -7,7 +7,7 @@
 
 .main-container{
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 2px;
     overflow: hidden;
     
 }
@@ -35,6 +35,7 @@
     background-color: rgb(53, 49, 49);
     height: 10vh;
     width: 100%;
+    justify-content: space-between;
 } 
 
 .logo{
@@ -193,6 +194,7 @@
 .music-player{
     display: flex;
     align-items: center;
+    background-color:rgb(51,51,51) ;
     
 }
 
@@ -219,4 +221,74 @@
 
 .fa-heart{
     margin: 5px;
+}
+
+.player-controls i{
+    align-items: center;
+    padding: 2px;
+}
+
+.player-slider{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.timeline{
+    width: 500px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.player-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.player-container3{
+    display: flex;
+    align-self: center;
+    padding-inline-end: 45px;
+
+    
+}
+
+.player-container3 i {
+    margin: 8px;
+    margin-top: 15px;
+}
+
+h2:hover,
+h3:hover,
+h5:hover{
+    color: #1ed761;
+    cursor: pointer;
+} 
+
+.starting-timer{
+    font-size: 14px;
+}
+
+.end-timer{
+    font-size: 14px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #a79e9e;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 50px;
+}
+::-webkit-slider-thumb :hover{
+    background-color: #555;
 }
